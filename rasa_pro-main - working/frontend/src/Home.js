@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Logo from './images/msitadv.jpg';
 import './Home.css'
+import SplitPane, { Pane } from 'react-split-pane';
 const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
@@ -12,8 +13,11 @@ const GridWrapper = styled.div`
   grid-auto-rows: minmax(25px, auto);
 `;
 export const Home = (props) => (
+  <div>
   <GridWrapper>
     <img src={Logo} width="400" height="400" alt="logo" />
     
   </GridWrapper>
+ 
+  </div>
 )

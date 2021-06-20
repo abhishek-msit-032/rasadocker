@@ -62,6 +62,12 @@ nlu:
 - intent: options
   examples: |
     - Yes
+- intent: filled
+  examples: |
+    - Yes Filled
+    - yes filled
+    - Yes
+    - yes
 
 
 - intent: Thankyou

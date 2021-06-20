@@ -83,23 +83,27 @@ responses:
  
 
   utter_greet:
-  - text: Hey! I am a bot powered by MSIT. Before asking queries please fill the form, so that we can get back to you. <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYVuhKmn4dTkv7ulz7XRWHi6gZaYrdAGKpFXdGX6lg5QI6AA/viewform?embedded=true" width="250" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  - text: Hey! I am a bot powered by MSIT. Before asking queries please fill the form, so that we can get back to you. 
+  utter_form:
+  - text: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYVuhKmn4dTkv7ulz7XRWHi6gZaYrdAGKpFXdGX6lg5QI6AA/viewform?embedded=true" width="250" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
+  utter_msg:
+  - text: Please type yes if you have already filled.
   utter_options:
   - text: Ask Queries related to
     buttons:
-        - title:  "learning centres"
+        - title:  "learning centers"
           payload: "/utter_learning-centers"
-        - title: "Prerequicites to join the course" 
+        - title: "prerequisites" 
           payload: "/prequesites"
-        - title: "Fee"
+        - title: "AboutFee"
           payload: "/Fee"
-        - title: "Non-IT_Background"
+        - title: "Non-IT"
           payload: "/Non-IT_Background"
-        - title: "hostel"
+        - title: "Hostel"
           payload: "/hostel"
-        - title: "GAT_syllabus"
+        - title: "GAT Syllabus"
           payload: "/GAT_syllabus"
-        - title: "count_of_semesters" 
+        - title: "Semsters" 
           payload: "/count_of_semesters"
         - title: "Other Queries"
           payload: "/specific"

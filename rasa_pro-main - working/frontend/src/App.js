@@ -5,6 +5,7 @@ import { NavigationBar } from './components/NavigationBar';
 import { Home } from './Home';
 import { About } from './About';
 import { Dash } from './Dash';
+import Footer from './footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/dash" component={Dash} />
         </Switch>
       </Router>
+      <Footer/>
     </React.Fragment>
   );
 }
